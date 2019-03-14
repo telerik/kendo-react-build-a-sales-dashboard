@@ -1,33 +1,31 @@
-.App {
+h1 {
+  color:rgb(63, 81, 181);
+  font-weight: bold;
+}
+.buttons-right>button {
+  float: right;
+  margin: 5px;
+}
+.app-container {
+  padding: 25px;
+}
+
+.percentage-number {
+  color: rgb(63, 81, 181);
+  font-size: 50px;
+  font-weight: bold;
+}
+.percentage-sign {
+  color: rgb(63, 81, 181);
+  font-size: 40px;
+}
+.percentage-container {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.percentage-container:first-child {
+  padding-bottom: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container .row div {
+  outline: solid 1px black;
 }
