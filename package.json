@@ -7,6 +7,7 @@
     "@progress/kendo-react-buttons": "^2.7.1",
     "@progress/kendo-react-layout": "^2.7.1",
     "@progress/kendo-react-pdf": "^2.7.1",
+    "@progress/kendo-react-ripple": "^2.7.1",
     "@progress/kendo-theme-material": "^2.3.2",
     "bootstrap-4-grid": "^2.4.1",
     "react": "^16.8.4",
