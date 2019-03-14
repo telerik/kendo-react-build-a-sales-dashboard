@@ -12,8 +12,16 @@ If you happen to come across this code in thu future, if the internet is still a
 
 ```
 # install dependencies
-yarn install
+npm install
 
 # serve at localhost:3000
-yarn start
+npm start
+
+# build
+npm run build
+
+# tests
+npm test
 ```
+
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)*
