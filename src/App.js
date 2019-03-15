@@ -10,6 +10,7 @@ import { savePDF } from '@progress/kendo-react-pdf';
 import { DonutChartContainer } from './components/DonutChartContainer';
 import { BarChartContainer } from './components/BarChartContainer';
 import { GridContainer } from './components/GridContainer';
+import { PanelBarContainer } from './components/PanelBarContainer';
 
 import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
@@ -47,7 +48,7 @@ class App extends Component {
             </div>
             <div className="row">
               <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                <h4>Panel Bar Container</h4>
+                <PanelBarContainer />
               </div>
               <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
                 <div className="row">
