@@ -25,7 +25,3 @@ h1 {
 .percentage-container:first-child {
   padding-bottom: 3em;
 }
-
-.container .row div {
-  outline: solid 1px black;
-}

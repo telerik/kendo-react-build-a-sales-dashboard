@@ -9,6 +9,7 @@ import { savePDF } from '@progress/kendo-react-pdf';
 
 import { DonutChartContainer } from './components/DonutChartContainer';
 import { BarChartContainer } from './components/BarChartContainer';
+import { GridContainer } from './components/GridContainer';
 
 import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
@@ -71,7 +72,7 @@ class App extends Component {
                 </div>
                 <div className="row">
                   <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h4>Grid Container</h4>
+                    <GridContainer />
                   </div>
                 </div>
               </div>
