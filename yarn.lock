@@ -780,6 +780,11 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
+"@progress/kendo-charts@^1.8.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-charts/-/kendo-charts-1.13.0.tgz#49cd88ad0df352cb1461a3dfd1da1af85897b230"
+  integrity sha512-kO/2tGqCwCHwXpJlij3N2zlJrL4SxhyzIwPEpVZooKGGafBaDw5D0ETf97t6cncWjlhjenChovwf9NxX8imYKQ==
+
 "@progress/kendo-drawing@^1.5.9":
   version "1.5.9"
   resolved "https://registry.yarnpkg.com/@progress/kendo-drawing/-/kendo-drawing-1.5.9.tgz#675e18b6d87a959d00eb7eb6d11b96bfeb376aa1"
@@ -811,6 +816,16 @@
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-buttons/-/kendo-react-buttons-2.7.1.tgz#9cdde254cdeefa4b6916bb6a71fdc29bb8d922c1"
   integrity sha512-6HZZzELgRCg/TtLOG8wisj3WLzV5s61t6fHTdkV7a9Dv2ecte/zF6QHxj+air0CWneUDpSysGM3BWMAOFC2SaA==
   dependencies:
+    "@progress/kendo-react-common" "2.7.1"
+    "@progress/kendo-react-popup" "2.7.1"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-charts@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-charts/-/kendo-react-charts-2.7.1.tgz#f3a64ffd9a137bc42b7ff9b764e63614c9c7f285"
+  integrity sha512-g8q3HDekSMY8KTW4NfxAoY5j/NwcozL26zPWT0/tcUPiK4TCGk4w8XfP/9S779aanpkMNvH4pB5ncoNmSqQo8Q==
+  dependencies:
+    "@progress/kendo-charts" "^1.8.0"
     "@progress/kendo-react-common" "2.7.1"
     "@progress/kendo-react-popup" "2.7.1"
     prop-types "^15.6.0"
@@ -4312,6 +4327,11 @@ gzip-size@5.0.0:
   dependencies:
     duplexer "^0.1.1"
     pify "^3.0.0"
+
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
 
 handle-thing@^2.0.0:
   version "2.0.0"
