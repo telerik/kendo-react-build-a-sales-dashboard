@@ -8,6 +8,7 @@ import { Ripple } from '@progress/kendo-react-ripple';
 import { savePDF } from '@progress/kendo-react-pdf';
 
 import { DonutChartContainer } from './components/DonutChartContainer';
+import { BarChartContainer } from './components/BarChartContainer';
 
 import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
@@ -65,7 +66,7 @@ class App extends Component {
                     </div>
                   </div>
                   <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <h4>Bar Chart Container</h4>
+                    <BarChartContainer />
                   </div>
                 </div>
                 <div className="row">
