@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+
+import { Dialog, DialogActionsBar } from '@progress/kendo-react-dialogs';
+import { Input } from '@progress/kendo-react-inputs'; 
 import { Button } from '@progress/kendo-react-buttons';
-import { savePDF } from '@progress/kendo-react-pdf';
 import { Ripple } from '@progress/kendo-react-ripple';
+import { savePDF } from '@progress/kendo-react-pdf';
+
 import '@progress/kendo-theme-material/dist/all.css';
 import './App.css';
 import 'bootstrap-4-grid/css/grid.min.css';
@@ -11,9 +15,17 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.appContainer = React.createRef();
+    this.state = {
+      showDialog: false
+    }
   }
   handlePDFExport = () => {
     savePDF(ReactDOM.findDOMNode(this.appContainer), { paperSize: 'auto' });
+  }
+  handleShare = () => {
+    this.setState({
+      showDialog: !this.state.showDialog
+    }, () => console.log(this.state))
   }
   render() {
     return (
@@ -25,7 +37,7 @@ class App extends Component {
                 <h1>Sales | Q4 2018</h1>
               </div>
               <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons-right">
-                <Button primary={true}>Share</Button>
+                <Button primary={true} onClick={this.handleShare}>Share</Button>
                 <Button onClick={this.handlePDFExport}>Export to PDF</Button>
               </div>
             </div>
@@ -61,7 +73,16 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            <h4 style={{ display: 'none' }}>Dialog Shown/Hidden with Logic</h4>
+            {this.state.showDialog &&
+              <Dialog title={"Share this report"} onClose={this.handleShare}>
+                <p>Please enter the email address/es of the recipient/s.</p>
+                <Input placeholder="example@progress.com" />
+                <DialogActionsBar>
+                  <Button primary={true} onClick={this.handleShare}>Share</Button>
+                  <Button onClick={this.handleShare}>Cancel</Button>
+                </DialogActionsBar>
+              </Dialog>
+            }
           </div>
         </div>
       </Ripple>

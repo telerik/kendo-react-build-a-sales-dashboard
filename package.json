@@ -5,6 +5,9 @@
   "dependencies": {
     "@progress/kendo-drawing": "^1.5.9",
     "@progress/kendo-react-buttons": "^2.7.1",
+    "@progress/kendo-react-dialogs": "^2.7.1",
+    "@progress/kendo-react-inputs": "^2.7.1",
+    "@progress/kendo-react-intl": "^2.7.1",
     "@progress/kendo-react-layout": "^2.7.1",
     "@progress/kendo-react-pdf": "^2.7.1",
     "@progress/kendo-react-ripple": "^2.7.1",

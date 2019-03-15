@@ -823,6 +823,32 @@
     "@telerik/kendo-draggable" "1.9.0"
     prop-types "^15.6.0"
 
+"@progress/kendo-react-dialogs@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-dialogs/-/kendo-react-dialogs-2.7.1.tgz#fecf449cf263b40691b1c1daccaa753b71541eb1"
+  integrity sha512-3JPh4uACQ6c08As9PLXgQJsOhJeRG420OUUZ58S/I85Z0nkuYjs4ydlILpoWQgd9fzYypVrYQK1iIAx3FZhBPQ==
+  dependencies:
+    "@progress/kendo-react-common" "2.7.1"
+    "@telerik/kendo-draggable" "^1.9.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-inputs@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-inputs/-/kendo-react-inputs-2.7.1.tgz#68237872bc2873a22435fd0fb6ddf3ec613e7b2d"
+  integrity sha512-m7ZeBKjR3Hh5mdzW9EN6ssKeI5UfIFUerBxPAq+KYAPh8oaPmt0fKicAHPUP8FyBIrEbSEL2ogJwvZTj+ggi/g==
+  dependencies:
+    "@progress/kendo-react-common" "2.7.1"
+    "@telerik/kendo-draggable" "^1.9.0"
+    prop-types "^15.6.0"
+
+"@progress/kendo-react-intl@^2.7.1":
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-react-intl/-/kendo-react-intl-2.7.1.tgz#9d99b96d5006f5094364361866eefff1563fd0d5"
+  integrity sha512-PHAXgH5h6umUQglU6TXem/G4FJLSVkmVv05ztKe7jUNYNqxjlzvpJZjW1aAG+g0bKAN3oAxyOetSYukw9P8+Og==
+  dependencies:
+    "@telerik/kendo-intl" "^1.3.0"
+    prop-types "^15.6.0"
+
 "@progress/kendo-react-layout@^2.7.1":
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/@progress/kendo-react-layout/-/kendo-react-layout-2.7.1.tgz#97e7521901143d1494ebc96c50813e3e3461d8e0"
@@ -992,6 +1018,11 @@
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@telerik/kendo-draggable/-/kendo-draggable-1.9.1.tgz#c1ae7f8fddab38c6caffc548776cdd4d69a5c0fa"
   integrity sha512-F5AeqUFevoSphuiYU48Jui+4eTXAM8rPpuSj5Sh6h6gC2NabpoawIH/M/ND/nAiC0A+WrgsBptdNF85NyrMhRw==
+
+"@telerik/kendo-intl@^1.3.0":
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/@telerik/kendo-intl/-/kendo-intl-1.4.4.tgz#be0e0a2b00089bcc5253f6b9e31bae3998e99a90"
+  integrity sha512-aALwrLRyWLo5P6Tk9PJPXpZlsooud/6laMNULffD7cPsgO7LSFOFcCWw+ESSYc7FRu6n70y0+wheGGemA7F9kA==
 
 "@types/node@*":
   version "10.12.24"
