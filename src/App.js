@@ -30,7 +30,7 @@ class App extends Component {
   handleShare = () => {
     this.setState({
       showDialog: !this.state.showDialog
-    }, () => console.log(this.state))
+    })
   }
   render() {
     return (
@@ -42,7 +42,7 @@ class App extends Component {
                 <h1>Sales | Q4 2018</h1>
               </div>
               <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 buttons-right">
-                <Button primary={true} onClick={this.handleShare}>Share</Button>
+                <Button themeColor={'primary'} onClick={this.handleShare}>Share</Button>
                 <Button onClick={this.handlePDFExport}>Export to PDF</Button>
               </div>
             </div>
@@ -83,7 +83,7 @@ class App extends Component {
                 <p>Please enter the email address/es of the recipient/s.</p>
                 <Input placeholder="example@progress.com" />
                 <DialogActionsBar>
-                  <Button primary={true} onClick={this.handleShare}>Share</Button>
+                  <Button themeColor={'primary'} onClick={this.handleShare}>Share</Button>
                   <Button onClick={this.handleShare}>Cancel</Button>
                 </DialogActionsBar>
               </Dialog>
